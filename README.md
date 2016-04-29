@@ -1,0 +1,2 @@
+mvn archetype:generate  -D archetypeGroupId=org.apache.isis.archetype -D archetypeArtifactId=simpleapp-archetype -D archetypeVersion=1.12.1 -D groupId=com.mcreations.isis.ldap -D artifactId=mc-isis-ldap-test -D version=1.0-SNAPSHOT -B
+mvn archetype:generate  -D archetypeGroupId=org.apache.isis.archetype -D archetypeArtifactId=simpleapp-archetype -D archetypeVersion=1.12.1 -D groupId=com.mcreations.isis.ldap -D artifactId=mc-isis-ldap-test -D version=1.0-SNAPSHOT -B
