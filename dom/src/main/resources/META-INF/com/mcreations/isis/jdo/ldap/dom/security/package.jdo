@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdo xmlns="http://xmlns.jcp.org/xml/ns/jdo/jdo"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/jdo/jdo
+        http://xmlns.jcp.org/xml/ns/jdo/jdo_3_0.xsd" version="3.0">
+    <package name="com.mcreations.isis.jdo.ldap.dom.security">
+         <!--class name="Role" table="ou=roles,dc=example,dc=com" schema="organizationalRole" detachable="true">
+                <field name="name" column="cn" primary-key="true" />    
+                <field name="users" column="roleOcuppant" default-fetch-group="true"/>            
+            </class>        
+            <class name="Person" table="ou=people,dc=example,dc=com" schema="top,person,organizationalPerson,inetOrgPerson,gosaAccount" detachable="true">
+                <field name="userId" column="uid" primary-key="true" />
+                <field name="firstName" column="givenMame" />
+                <field name="lastName" column="sn" />
+                <field name="roles" mapped-by="users" default-fetch-group="true" />
+            </class-->
+        <!--class name="Role" detachable="true">
+            <extension vendor-name="datanucleus" key="dn" value="ou=Groups,dc=example,dc=com"/>
+            <extension vendor-name="datanucleus" key="objectClass" value="organizationalRole"/>
+            <field name="name" primary-key="true">
+                <extension vendor-name="datanucleus" key="dn" value="cn"/>
+            </field>           
+        </class-->
+        <!--class name="Person" detachable="true"
+        datastore-identity="APPLICATION" 
+        table="ou=people,dc=example,dc=com" schema="top,person,organizationalPerson,inetOrgPerson,gosaAccount">
+            <field name="fullName" primary-key="true" column="cn" allows-null="false"/>
+            <field name="firstName" column="givenName" allows-null="false"/>
+            <field name="lastName" column="sn" allows-null="false" />
+            <field name="roles" mapped-by="members" default-fetch-group="true" />
+        </class-->        
+    </package>
+</jdo>
