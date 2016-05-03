@@ -21,12 +21,12 @@
 
     <parent>
         <groupId>com.mcreations.isis.ldap</groupId>
-        <artifactId>mc-isis-ldap-test</artifactId>
+        <artifactId>isis-test-ldap-jdo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mc-isis-ldap-test-integtests</artifactId>
-    <name>Simple App Integration Tests</name>
+    <artifactId>isis-test-ldap-jdo-integtests</artifactId>
+    <name>Isis Test Ldap Jdo App Integration Tests</name>
 
     <build>
         <testResources>
@@ -48,7 +48,7 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>mc-isis-ldap-test-app</artifactId>
+            <artifactId>isis-test-ldap-jdo-app</artifactId>
         </dependency>
 
         <dependency>
@@ -98,7 +98,7 @@
                         <artifactId>isis-maven-plugin</artifactId>
                         <version>${isis.version}</version>
                         <configuration>
-                            <appManifest>domainapp.app.DomainAppAppManifest</appManifest>
+                            <appManifest>com.mcreations.isis.jdo.ldap.app.DomainAppAppManifest</appManifest>
                             <visibilities>
                                 <visibility>PUBLIC</visibility>
                                 <visibility>PRIVATE</visibility>

@@ -62,17 +62,17 @@ msgid "Confirm"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObjects#create()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#create()
 msgid "Create"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#delete()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#delete()
 msgid "Delete"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#discoverable
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#discoverable
 #: org.apache.isis.applib.fixturescripts.FixtureScript#discoverable
 msgid "Discoverable"
 msgstr ""
@@ -83,7 +83,7 @@ msgid "Domain Objects"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#downloadJdoMetadata()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#downloadJdoMetadata()
 msgid "Download Jdo Metadata"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid "Download Translations"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#updateName()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#updateName()
 msgid "Exclamation mark is not allowed"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid "Filename"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObjects#findByName()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#findByName()
 msgid "Find By Name"
 msgstr ""
 
@@ -118,18 +118,18 @@ msgid "Fixture script"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#friendlyName
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#friendlyName
 #: org.apache.isis.applib.fixturescripts.FixtureScript#friendlyName
 msgid "Friendly Name"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject
 msgid "General"
 msgstr ""
 
 
-#: domainapp.app.services.homepage.HomePageService#homePage()
+#: com.mcreations.isis.jdo.ldap.app.services.homepage.HomePageService#homePage()
 msgid "Home Page"
 msgstr ""
 
@@ -149,37 +149,37 @@ msgid "Json"
 msgstr "JSON"
 
 
-#: domainapp.dom.simple.SimpleObjects#listAll()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#listAll()
 msgid "List All"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#localName
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#localName
 #: org.apache.isis.applib.fixturescripts.FixtureScript#localName
 msgid "Local Name"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#lookup()
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#lookup()
 #: org.apache.isis.applib.fixturescripts.FixtureScript#lookup()
 #: org.apache.isis.applib.services.bookmark.BookmarkHolderActionContributions#lookup()
 msgid "Lookup"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#name
-#: domainapp.dom.simple.SimpleObjects#create(java.lang.String)
-#: domainapp.dom.simple.SimpleObjects#findByName(java.lang.String)
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#name
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#create(java.lang.String)
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#findByName(java.lang.String)
 msgid "Name"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#updateName(java.lang.String)
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#updateName(java.lang.String)
 msgid "New name"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#number
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#number
 msgid "Number"
 msgstr ""
 
@@ -189,12 +189,12 @@ msgid "Object"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#title()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#title()
 msgid "Object: {name}"
 msgstr ""
 
 
-#: domainapp.app.services.homepage.HomePageViewModel#objects
+#: com.mcreations.isis.jdo.ldap.app.services.homepage.HomePageViewModel#objects
 msgid "Objects"
 msgstr ""
 
@@ -260,7 +260,7 @@ msgid "Run Fixture Script"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects
 #: org.apache.isis.applib.fixturescripts.FixtureScript
 msgid "Script"
 msgstr ""
@@ -273,8 +273,8 @@ msgid "Script-specific parameters (if any).  The format depends on the script im
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObjects#title()
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#simpleObjects
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObjects#title()
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#simpleObjects
 msgid "Simple Objects"
 msgstr ""
 
@@ -289,18 +289,18 @@ msgid "Switch To Writing Translations"
 msgstr ""
 
 
-#: domainapp.fixture.scenarios.RecreateSimpleObjects#type
+#: com.mcreations.isis.jdo.ldap.fixture.scenarios.RecreateSimpleObjects#type
 #: org.apache.isis.applib.fixturescripts.FixtureScript#type
 msgid "Type"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#updateName()
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#updateName()
 msgid "Update Name"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#versionSequence
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject#versionSequence
 msgid "Version"
 msgstr ""
 
@@ -398,7 +398,7 @@ msgid "logoutLabel"
 msgstr "Logout"
 
 
-#: domainapp.dom.simple.SimpleObject
+#: com.mcreations.isis.jdo.ldap.dom.simple.SimpleObject
 msgid "name"
 msgstr ""
 

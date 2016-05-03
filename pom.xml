@@ -20,10 +20,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mcreations.isis.ldap</groupId>
-    <artifactId>mc-isis-ldap-test</artifactId>
+    <artifactId>isis-test-ldap-jdo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Simple App</name>
+    <name>Isis Test Ldap Jdo App</name>
 
     <packaging>pom</packaging>
 
@@ -33,7 +33,7 @@
 
     <properties>
         <isis.version>1.12.1</isis.version>
-
+        <datanucleus-core.version>4.1.0-release</datanucleus-core.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <assertj-core.version>2.4.0</assertj-core.version>
@@ -323,26 +323,30 @@
                 <version>${assertj-core.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>org.datanucleus</groupId>
+                <artifactId>datanucleus-ldap</artifactId>
+                <version>${datanucleus-core.version}</version>
+            </dependency>
             <!-- this project's own modules -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mc-isis-ldap-test-app</artifactId>
+                <artifactId>isis-test-ldap-jdo-app</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mc-isis-ldap-test-dom</artifactId>
+                <artifactId>isis-test-ldap-jdo-dom</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mc-isis-ldap-test-fixture</artifactId>
+                <artifactId>isis-test-ldap-jdo-fixture</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mc-isis-ldap-test-webapp</artifactId>
+                <artifactId>isis-test-ldap-jdo-webapp</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
@@ -368,7 +372,7 @@
     <module>app</module>
     <module>dom</module>
     <module>fixture</module>
-    <module>integtests</module>
+    <!-- <module>integtests</module> -->
     <module>webapp</module>
   </modules>
 </project>

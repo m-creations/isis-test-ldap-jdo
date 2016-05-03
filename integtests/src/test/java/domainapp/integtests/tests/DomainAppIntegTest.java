@@ -16,14 +16,14 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package domainapp.integtests.tests;
+package com.mcreations.isis.jdo.ldap.integtests.tests;
 
 import org.junit.BeforeClass;
 
 import org.apache.isis.core.integtestsupport.IntegrationTestAbstract;
 import org.apache.isis.core.integtestsupport.scenarios.ScenarioExecutionForIntegration;
 
-import domainapp.integtests.bootstrap.DomainAppSystemInitializer;
+import com.mcreations.isis.jdo.ldap.integtests.bootstrap.DomainAppSystemInitializer;
 
 public abstract class DomainAppIntegTest extends IntegrationTestAbstract {
 

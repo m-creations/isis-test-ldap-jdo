@@ -21,17 +21,17 @@
 
     <parent>
         <groupId>com.mcreations.isis.ldap</groupId>
-        <artifactId>mc-isis-ldap-test</artifactId>
+        <artifactId>isis-test-ldap-jdo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mc-isis-ldap-test-fixture</artifactId>
-    <name>Simple App Fixtures</name>
+    <artifactId>isis-test-ldap-jdo-fixture</artifactId>
+    <name>Isis Test Ldap Jdo App Fixtures</name>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>mc-isis-ldap-test-dom</artifactId>
+            <artifactId>isis-test-ldap-jdo-dom</artifactId>
             <exclusions>
                 <exclusion>
                     <!-- so don't pick up transitive dependency to asm 4.0.0 -->

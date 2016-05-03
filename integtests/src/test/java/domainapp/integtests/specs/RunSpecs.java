@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package domainapp.integtests.specs;
+package com.mcreations.isis.jdo.ldap.integtests.specs;
 
 import org.junit.runner.RunWith;
 
@@ -31,7 +31,7 @@ import cucumber.api.junit.Cucumber;
                 "html:target/cucumber-html-report"
                 ,"json:target/cucumber.json"
         },
-        glue={"classpath:domainapp.integtests.specglue"},
+        glue={"classpath:com.mcreations.isis.jdo.ldap.integtests.specglue"},
         strict = true,
         tags = { "~@backlog", "~@ignore" })
 public class RunSpecs {
